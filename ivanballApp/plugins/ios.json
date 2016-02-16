@@ -7,16 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-console": {
@@ -34,6 +28,12 @@
         "cordova-plugin-device-orientation": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
         "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
@@ -46,10 +46,10 @@
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
-        "cordova-plugin-network-information": {
+        "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
-        "cordova-plugin-dialogs": {
+        "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-splashscreen": {

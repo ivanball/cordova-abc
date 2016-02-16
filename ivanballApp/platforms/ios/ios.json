@@ -9,38 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"FileTransfer\"><param name=\"ios-package\" value=\"CDVFileTransfer\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Capture\"><param name=\"ios-package\" value=\"CDVCapture\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Compass\"><param name=\"ios-package\" value=\"CDVCompass\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Battery\"><param name=\"ios-package\" value=\"CDVBattery\" /></feature>",
                             "count": 1
                         },
@@ -53,7 +21,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Contacts\"><param name=\"ios-package\" value=\"CDVContacts\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
                         },
                         {
@@ -61,11 +37,35 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Compass\"><param name=\"ios-package\" value=\"CDVCompass\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"ios-package\" value=\"CDVFileTransfer\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Capture\"><param name=\"ios-package\" value=\"CDVCapture\" /></feature>",
                             "count": 1
                         },
                         {
@@ -77,7 +77,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -96,46 +96,46 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-media": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.coolappz.ivanballApp"
-        },
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
         "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-device-motion": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
-        "cordova-plugin-vibration": {
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.coolappz.ivanballApp"
+        },
+        "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-network-information": {
@@ -144,7 +144,7 @@
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
-        "cordova-plugin-console": {
+        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "com.coolappz.ivanballApp"
         },
         "cordova-plugin-whitelist": {
@@ -154,27 +154,203 @@
     "dependent_plugins": {},
     "modules": [
         {
+            "file": "plugins/cordova-plugin-battery-status/www/battery.js",
+            "id": "cordova-plugin-battery-status.battery",
+            "pluginId": "cordova-plugin-battery-status",
+            "clobbers": [
+                "navigator.battery"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+            "id": "cordova-plugin-camera.Camera",
+            "pluginId": "cordova-plugin-camera",
+            "clobbers": [
+                "Camera"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+            "id": "cordova-plugin-camera.CameraPopoverOptions",
+            "pluginId": "cordova-plugin-camera",
+            "clobbers": [
+                "CameraPopoverOptions"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-camera/www/Camera.js",
+            "id": "cordova-plugin-camera.camera",
+            "pluginId": "cordova-plugin-camera",
+            "clobbers": [
+                "navigator.camera"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+            "id": "cordova-plugin-camera.CameraPopoverHandle",
+            "pluginId": "cordova-plugin-camera",
+            "clobbers": [
+                "CameraPopoverHandle"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
+            "id": "cordova-plugin-console.console",
+            "pluginId": "cordova-plugin-console",
+            "clobbers": [
+                "console"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-console/www/logger.js",
+            "id": "cordova-plugin-console.logger",
+            "pluginId": "cordova-plugin-console",
+            "clobbers": [
+                "cordova.logger"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/contacts.js",
+            "id": "cordova-plugin-contacts.contacts",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "navigator.contacts"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/Contact.js",
+            "id": "cordova-plugin-contacts.Contact",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "Contact"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactAddress.js",
+            "id": "cordova-plugin-contacts.ContactAddress",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactAddress"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactError.js",
+            "id": "cordova-plugin-contacts.ContactError",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactField.js",
+            "id": "cordova-plugin-contacts.ContactField",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactField"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactFindOptions.js",
+            "id": "cordova-plugin-contacts.ContactFindOptions",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactFindOptions"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactName.js",
+            "id": "cordova-plugin-contacts.ContactName",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactName"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactOrganization.js",
+            "id": "cordova-plugin-contacts.ContactOrganization",
+            "pluginId": "cordova-plugin-contacts",
+            "clobbers": [
+                "ContactOrganization"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ContactFieldType.js",
+            "id": "cordova-plugin-contacts.ContactFieldType",
+            "pluginId": "cordova-plugin-contacts",
+            "merges": [
+                ""
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ios/contacts.js",
+            "id": "cordova-plugin-contacts.contacts-ios",
+            "pluginId": "cordova-plugin-contacts",
+            "merges": [
+                "navigator.contacts"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-contacts/www/ios/Contact.js",
+            "id": "cordova-plugin-contacts.Contact-iOS",
+            "pluginId": "cordova-plugin-contacts",
+            "merges": [
+                "Contact"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
+            "id": "cordova-plugin-device-motion.Acceleration",
+            "pluginId": "cordova-plugin-device-motion",
+            "clobbers": [
+                "Acceleration"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
+            "id": "cordova-plugin-device-motion.accelerometer",
+            "pluginId": "cordova-plugin-device-motion",
+            "clobbers": [
+                "navigator.accelerometer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-orientation/www/CompassError.js",
+            "id": "cordova-plugin-device-orientation.CompassError",
+            "pluginId": "cordova-plugin-device-orientation",
+            "clobbers": [
+                "CompassError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-orientation/www/CompassHeading.js",
+            "id": "cordova-plugin-device-orientation.CompassHeading",
+            "pluginId": "cordova-plugin-device-orientation",
+            "clobbers": [
+                "CompassHeading"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-orientation/www/compass.js",
+            "id": "cordova-plugin-device-orientation.compass",
+            "pluginId": "cordova-plugin-device-orientation",
+            "clobbers": [
+                "navigator.compass"
+            ]
+        },
+        {
             "file": "plugins/cordova-plugin-dialogs/www/notification.js",
             "id": "cordova-plugin-dialogs.notification",
             "pluginId": "cordova-plugin-dialogs",
             "merges": [
                 "navigator.notification"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-            "id": "cordova-plugin-globalization.GlobalizationError",
-            "pluginId": "cordova-plugin-globalization",
-            "clobbers": [
-                "window.GlobalizationError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-            "id": "cordova-plugin-globalization.globalization",
-            "pluginId": "cordova-plugin-globalization",
-            "clobbers": [
-                "navigator.globalization"
             ]
         },
         {
@@ -351,22 +527,6 @@
             "runs": true
         },
         {
-            "file": "plugins/cordova-plugin-media/www/MediaError.js",
-            "id": "cordova-plugin-media.MediaError",
-            "pluginId": "cordova-plugin-media",
-            "clobbers": [
-                "window.MediaError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media/www/Media.js",
-            "id": "cordova-plugin-media.Media",
-            "pluginId": "cordova-plugin-media",
-            "clobbers": [
-                "window.Media"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
             "id": "cordova-plugin-file-transfer.FileTransferError",
             "pluginId": "cordova-plugin-file-transfer",
@@ -380,6 +540,70 @@
             "pluginId": "cordova-plugin-file-transfer",
             "clobbers": [
                 "window.FileTransfer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
+            "id": "cordova-plugin-geolocation.Coordinates",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "Coordinates"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+            "id": "cordova-plugin-geolocation.PositionError",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "PositionError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/Position.js",
+            "id": "cordova-plugin-geolocation.Position",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "Position"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
+            "id": "cordova-plugin-geolocation.geolocation",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "navigator.geolocation"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+            "id": "cordova-plugin-globalization.GlobalizationError",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "window.GlobalizationError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+            "id": "cordova-plugin-globalization.globalization",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "navigator.globalization"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-media/www/MediaError.js",
+            "id": "cordova-plugin-media.MediaError",
+            "pluginId": "cordova-plugin-media",
+            "clobbers": [
+                "window.MediaError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-media/www/Media.js",
+            "id": "cordova-plugin-media.Media",
+            "pluginId": "cordova-plugin-media",
+            "clobbers": [
+                "window.Media"
             ]
         },
         {
@@ -439,223 +663,6 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-device-orientation/www/CompassError.js",
-            "id": "cordova-plugin-device-orientation.CompassError",
-            "pluginId": "cordova-plugin-device-orientation",
-            "clobbers": [
-                "CompassError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-device-orientation/www/CompassHeading.js",
-            "id": "cordova-plugin-device-orientation.CompassHeading",
-            "pluginId": "cordova-plugin-device-orientation",
-            "clobbers": [
-                "CompassHeading"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-device-orientation/www/compass.js",
-            "id": "cordova-plugin-device-orientation.compass",
-            "pluginId": "cordova-plugin-device-orientation",
-            "clobbers": [
-                "navigator.compass"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-device/www/device.js",
-            "id": "cordova-plugin-device.device",
-            "pluginId": "cordova-plugin-device",
-            "clobbers": [
-                "device"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-battery-status/www/battery.js",
-            "id": "cordova-plugin-battery-status.battery",
-            "pluginId": "cordova-plugin-battery-status",
-            "clobbers": [
-                "navigator.battery"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-            "id": "cordova-plugin-camera.Camera",
-            "pluginId": "cordova-plugin-camera",
-            "clobbers": [
-                "Camera"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-            "id": "cordova-plugin-camera.CameraPopoverOptions",
-            "pluginId": "cordova-plugin-camera",
-            "clobbers": [
-                "CameraPopoverOptions"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-camera/www/Camera.js",
-            "id": "cordova-plugin-camera.camera",
-            "pluginId": "cordova-plugin-camera",
-            "clobbers": [
-                "navigator.camera"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-            "id": "cordova-plugin-camera.CameraPopoverHandle",
-            "pluginId": "cordova-plugin-camera",
-            "clobbers": [
-                "CameraPopoverHandle"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/contacts.js",
-            "id": "cordova-plugin-contacts.contacts",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "navigator.contacts"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/Contact.js",
-            "id": "cordova-plugin-contacts.Contact",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "Contact"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactAddress.js",
-            "id": "cordova-plugin-contacts.ContactAddress",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactAddress"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactError.js",
-            "id": "cordova-plugin-contacts.ContactError",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactField.js",
-            "id": "cordova-plugin-contacts.ContactField",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactField"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactFindOptions.js",
-            "id": "cordova-plugin-contacts.ContactFindOptions",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactFindOptions"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactName.js",
-            "id": "cordova-plugin-contacts.ContactName",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactName"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactOrganization.js",
-            "id": "cordova-plugin-contacts.ContactOrganization",
-            "pluginId": "cordova-plugin-contacts",
-            "clobbers": [
-                "ContactOrganization"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ContactFieldType.js",
-            "id": "cordova-plugin-contacts.ContactFieldType",
-            "pluginId": "cordova-plugin-contacts",
-            "merges": [
-                ""
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ios/contacts.js",
-            "id": "cordova-plugin-contacts.contacts-ios",
-            "pluginId": "cordova-plugin-contacts",
-            "merges": [
-                "navigator.contacts"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-contacts/www/ios/Contact.js",
-            "id": "cordova-plugin-contacts.Contact-iOS",
-            "pluginId": "cordova-plugin-contacts",
-            "merges": [
-                "Contact"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
-            "id": "cordova-plugin-device-motion.Acceleration",
-            "pluginId": "cordova-plugin-device-motion",
-            "clobbers": [
-                "Acceleration"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
-            "id": "cordova-plugin-device-motion.accelerometer",
-            "pluginId": "cordova-plugin-device-motion",
-            "clobbers": [
-                "navigator.accelerometer"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
-            "id": "cordova-plugin-geolocation.Coordinates",
-            "pluginId": "cordova-plugin-geolocation",
-            "clobbers": [
-                "Coordinates"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
-            "id": "cordova-plugin-geolocation.PositionError",
-            "pluginId": "cordova-plugin-geolocation",
-            "clobbers": [
-                "PositionError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/Position.js",
-            "id": "cordova-plugin-geolocation.Position",
-            "pluginId": "cordova-plugin-geolocation",
-            "clobbers": [
-                "Position"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
-            "id": "cordova-plugin-geolocation.geolocation",
-            "pluginId": "cordova-plugin-geolocation",
-            "clobbers": [
-                "navigator.geolocation"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
-            "id": "cordova-plugin-vibration.notification",
-            "pluginId": "cordova-plugin-vibration",
-            "merges": [
-                "navigator.notification",
-                "navigator"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-network-information/www/network.js",
             "id": "cordova-plugin-network-information.network",
             "pluginId": "cordova-plugin-network-information",
@@ -681,19 +688,12 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
-            "id": "cordova-plugin-console.console",
-            "pluginId": "cordova-plugin-console",
-            "clobbers": [
-                "console"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-console/www/logger.js",
-            "id": "cordova-plugin-console.logger",
-            "pluginId": "cordova-plugin-console",
-            "clobbers": [
-                "cordova.logger"
+            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+            "id": "cordova-plugin-vibration.notification",
+            "pluginId": "cordova-plugin-vibration",
+            "merges": [
+                "navigator.notification",
+                "navigator"
             ]
         }
     ]

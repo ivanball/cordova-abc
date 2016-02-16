@@ -39,7 +39,7 @@
             vm.findContacts = function () {
                 // find all contacts with 'Bob' in any name field
                 var options = new ContactFindOptions();
-                options.filter = "Leimy";
+                options.filter = "Doe";
                 options.multiple = true;
                 var fields = ["displayName", "name"];
                 navigator.contacts.find(fields, onFindSuccess, onError, options);
