@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "my_release_key.keystore",
+             "storePassword": "evadiaz",
+             "alias": "my_alias_name",
+             "password" : "evadiaz",
+             "keystoreType": ""
+         }
+     }
+ }

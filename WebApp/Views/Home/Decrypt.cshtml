@@ -1,0 +1,40 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Decrypt";
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="row">
+                Text to decrypt
+            </div>
+            <div class="row">
+                @Html.TextBox("TextToDecrypt", "", new { @class = "control-label col-md-12" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                Clear text
+            </div>
+            <div class="row">
+                @Html.TextBox("ClearText", Model, new { @class = "control-label col-md-12" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Decrypt" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to Home", "Index")
+</div>
