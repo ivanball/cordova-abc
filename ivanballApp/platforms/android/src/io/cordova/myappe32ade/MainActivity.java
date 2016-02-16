@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.coolappz.ivanballApp;
+package io.cordova.myappe32ade;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
